@@ -1,0 +1,65 @@
+{
+  "fabric": {
+    "loader": "net.fabricmc:fabric-loader:0.15.0",
+    "yarn": {
+      "1.16.5": "net.fabricmc:yarn:1.16.5+build.10",
+      "1.18.2": "net.fabricmc:yarn:1.18.2+build.4",
+      "1.19.2": "net.fabricmc:yarn:1.19.2+build.28",
+      "1.19.3": "net.fabricmc:yarn:1.19.3+build.5",
+      "1.19.4": "net.fabricmc:yarn:1.19.4+build.2",
+      "1.20.1": "net.fabricmc:yarn:1.20.1+build.10",
+      "1.20.2": "net.fabricmc:yarn:1.20.2+build.4"
+    },
+    "fabric-api": {
+      "1.16.5": "net.fabricmc.fabric-api:fabric-api:0.42.0+1.16",
+      "1.18.2": "net.fabricmc.fabric-api:fabric-api:0.77.0+1.18.2",
+      "1.19.2": "net.fabricmc.fabric-api:fabric-api:0.77.0+1.19.2",
+      "1.19.3": "net.fabricmc.fabric-api:fabric-api:0.76.1+1.19.3",
+      "1.19.4": "net.fabricmc.fabric-api:fabric-api:0.87.2+1.19.4",
+      "1.20.1": "net.fabricmc.fabric-api:fabric-api:0.91.0+1.20.1",
+      "1.20.2": "net.fabricmc.fabric-api:fabric-api:0.91.1+1.20.2"
+    },
+    "modmenu": {
+      "1.16.5": "com.terraformersmc:modmenu:1.16.23",
+      "1.18.2": "com.terraformersmc:modmenu:3.2.5",
+      "1.19.2": "com.terraformersmc:modmenu:4.2.0-beta.2",
+      "1.19.3": "com.terraformersmc:modmenu:5.1.0",
+      "1.19.4": "com.terraformersmc:modmenu:6.3.1",
+      "1.20.1": "com.terraformersmc:modmenu:7.2.2",
+      "1.20.2": "com.terraformersmc:modmenu:8.0.0"
+    }
+  },
+  "quilt": {
+    "loader": "org.quiltmc:quilt-loader:0.22.0",
+    "qsl": {
+      "1.18.2": "org.quiltmc:qsl:1.1.0-beta.26+1.18.2",
+      "1.19.2": "org.quiltmc:qsl:3.0.0-beta.29+1.19.2",
+      "1.19.3": "org.quiltmc:qsl:4.0.0-beta.13+1.19.3",
+      "1.19.4": "org.quiltmc:qsl:5.0.0-beta.11+1.19.4",
+      "1.20.1": "org.quiltmc:qsl:6.1.2+1.20.1"
+    },
+    "quilted-fabric-api": {
+      "1.18.2": "org.quiltmc.quilted-fabric-api:quilted-fabric-api:1.0.0-beta.28+0.67.0-1.18.2",
+      "1.19.2": "org.quiltmc.quilted-fabric-api:quilted-fabric-api:4.0.0-beta.30+0.76.0-1.19.2",
+      "1.19.3": "org.quiltmc.quilted-fabric-api:quilted-fabric-api:5.0.0-beta.9+0.76.0-1.19.3",
+      "1.19.4": "org.quiltmc.quilted-fabric-api:quilted-fabric-api:6.0.0-beta.11+0.87.0-1.19.4",
+      "1.20.1": "org.quiltmc.quilted-fabric-api:quilted-fabric-api:7.4.0+0.90.0-1.20.1"
+    }
+  },
+  "forge": {
+    "forge": {
+      "1.16.5": "net.minecraftforge:forge:1.16.5-36.2.39",
+      "1.18.2": "net.minecraftforge:forge:1.18.2-40.2.14",
+      "1.19.2": "net.minecraftforge:forge:1.19.2-43.3.5",
+      "1.19.3": "net.minecraftforge:forge:1.19.3-44.1.23",
+      "1.19.4": "net.minecraftforge:forge:1.19.4-45.2.6",
+      "1.20.1": "net.minecraftforge:forge:1.20.1-47.2.16",
+      "1.20.2": "net.minecraftforge:forge:1.20.2-48.0.49"
+    }
+  },
+  "neoforge": {
+    "neoforge": {
+      "1.20.2": "net.neoforged:neoforge:20.2.86"
+    }
+  }
+}
