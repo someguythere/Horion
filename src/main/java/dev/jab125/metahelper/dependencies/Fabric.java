@@ -39,7 +39,7 @@ public class Fabric implements Deps {
             Map<String, String> yarn = new LinkedHashMap<>();
             for (String mcVersion : mcVersions) {
                 try {
-                    yarn.put(mcVersion, mappings.asList().stream().filter(a -> mcVersion.equals(a.getAsJsonObject().getAsJsonPrimitive("gameVersion").getAsString())).findFirst().orElseThrow().getAsJsonObject().getAsJsonPrimitive("maven").getAsString());
+                    yarn.put(mcVersion, mappings.asList().stream().filter(a -> mcVersion.equals(a.getAsJsonObject().getAsJsonPrimitive("gameVersion").getAsString())).findFirst().orElseThrow().getAsJsonObject().getAsJsonPrimitive("maven").getAsString() + ":v2");
                 } catch (Throwable t) {
                     System.err.println("Failed to fetch version for " + mcVersion);
                 }
