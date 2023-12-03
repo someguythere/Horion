@@ -61,5 +61,28 @@
     "neoforge": {
       "1.20.2": "net.neoforged:neoforge:20.2.86"
     }
+  },
+  "roughly-enough-items": {
+    "fabric": {
+      "1.16.5": "me.shedaniel:RoughlyEnoughItems-fabric:5.12.385+fabric",
+      "1.18.2": "me.shedaniel:RoughlyEnoughItems-fabric:8.3.667+fabric",
+      "1.19.2": "me.shedaniel:RoughlyEnoughItems-fabric:9.1.668+fabric",
+      "1.19.3": "me.shedaniel:RoughlyEnoughItems-fabric:10.0.646+fabric",
+      "1.19.4": "me.shedaniel:RoughlyEnoughItems-fabric:11.0.673+fabric",
+      "1.20.1": "me.shedaniel:RoughlyEnoughItems-fabric:12.0.674+fabric",
+      "1.20.2": "me.shedaniel:RoughlyEnoughItems-fabric:13.0.678+fabric"
+    },
+    "forge": {
+      "1.16.5": "me.shedaniel:RoughlyEnoughItems-forge:6.5.436+forge",
+      "1.18.2": "me.shedaniel:RoughlyEnoughItems-forge:8.3.667+forge",
+      "1.19.2": "me.shedaniel:RoughlyEnoughItems-forge:9.1.668+forge",
+      "1.19.3": "me.shedaniel:RoughlyEnoughItems-forge:10.0.646+forge",
+      "1.19.4": "me.shedaniel:RoughlyEnoughItems-forge:11.0.673+forge",
+      "1.20.1": "me.shedaniel:RoughlyEnoughItems-forge:12.0.674+forge",
+      "1.20.2": "me.shedaniel:RoughlyEnoughItems-forge:13.0.678+forge"
+    },
+    "neoforge": {
+      "1.20.2": "me.shedaniel:RoughlyEnoughItems-neoforge:13.0.678+neoforge"
+    }
   }
 }

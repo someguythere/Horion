@@ -17,7 +17,8 @@ public class Main {
             new Fabric(),
             new Quilt(),
             new Forge(),
-            new NeoForge()
+            new NeoForge(),
+            new RoughlyEnoughItems()
     };
 
     public static void main(String[] args) throws Throwable {
