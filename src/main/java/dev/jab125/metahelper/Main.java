@@ -19,7 +19,8 @@ public class Main {
             new Forge(),
             new NeoForge(),
             new ArchitecturyApi(),
-            new RoughlyEnoughItems()
+            new RoughlyEnoughItems(),
+            new ClothConfig()
     };
 
     public static void main(String[] args) throws Throwable {
