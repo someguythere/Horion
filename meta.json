@@ -62,6 +62,29 @@
       "1.20.2": "net.neoforged:neoforge:20.2.86"
     }
   },
+  "architectury-api": {
+    "fabric": {
+      "1.16.5": "dev.architectury:architectury-fabric:1.32.68",
+      "1.18.2": "dev.architectury:architectury-fabric:4.11.93",
+      "1.19.2": "dev.architectury:architectury-fabric:6.5.85",
+      "1.19.3": "dev.architectury:architectury-fabric:7.1.86",
+      "1.19.4": "dev.architectury:architectury-fabric:8.2.89",
+      "1.20.1": "dev.architectury:architectury-fabric:9.1.12",
+      "1.20.2": "dev.architectury:architectury-fabric:10.0.16"
+    },
+    "forge": {
+      "1.16.5": "dev.architectury:architectury-forge:1.32.68",
+      "1.18.2": "dev.architectury:architectury-forge:4.11.93",
+      "1.19.2": "dev.architectury:architectury-forge:6.5.85",
+      "1.19.3": "dev.architectury:architectury-forge:7.1.86",
+      "1.19.4": "dev.architectury:architectury-forge:8.2.89",
+      "1.20.1": "dev.architectury:architectury-forge:9.1.12",
+      "1.20.2": "dev.architectury:architectury-forge:10.0.16"
+    },
+    "neoforge": {
+      "1.20.2": "dev.architectury:architectury-neoforge:10.0.16"
+    }
+  },
   "roughly-enough-items": {
     "fabric": {
       "1.16.5": "me.shedaniel:RoughlyEnoughItems-fabric:6.5.433",

@@ -18,6 +18,7 @@ public class Main {
             new Quilt(),
             new Forge(),
             new NeoForge(),
+            new ArchitecturyApi(),
             new RoughlyEnoughItems()
     };
 
