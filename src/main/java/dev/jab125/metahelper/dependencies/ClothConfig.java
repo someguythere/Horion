@@ -30,10 +30,10 @@ public class ClothConfig implements Deps {
                     try {
                         String dep = array.stream().filter(a -> a.getAsJsonArray("game_versions").asList().stream().map(b -> b.getAsString()).toList().contains(mcVersion) && a.getAsJsonArray("loaders").asList().stream().map(b -> b.getAsString()).toList().contains(s)).findFirst().orElseThrow().getAsJsonPrimitive("version_number").getAsString().split("\\+")[0];
                         String prefix = "me.shedaniel.cloth:cloth-config-";
-                        if (Integer.parseInt(dep.split("\\.")[0]) <= 4) {
-                            prefix = "me.shedaniel.cloth:config-2:";
+                        if (Integer.parseInt(dep.split("\\.")[0]) < 4) {
+                            prefix = "me.shedaniel.cloth:config-2";
                         }
-                        loaders.get(s).put(mcVersion, prefix + s + ":" + dep);
+                        loaders.get(s).put(mcVersion, prefix + (prefix.contains("2") ? "" : s) + ":" + dep);
                     } catch (Throwable t) {
                         System.err.println("Failed to fetch version for " + mcVersion);
                     }

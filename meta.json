@@ -110,7 +110,7 @@
   },
   "cloth-config": {
     "fabric": {
-      "1.16.5": "me.shedaniel.cloth:config-2:fabric:4.17.101",
+      "1.16.5": "me.shedaniel.cloth:cloth-config-fabric:4.17.101",
       "1.18.2": "me.shedaniel.cloth:cloth-config-fabric:6.5.102",
       "1.19.2": "me.shedaniel.cloth:cloth-config-fabric:8.3.103",
       "1.19.3": "me.shedaniel.cloth:cloth-config-fabric:9.1.104",
@@ -119,7 +119,7 @@
       "1.20.2": "me.shedaniel.cloth:cloth-config-fabric:12.0.111"
     },
     "forge": {
-      "1.16.5": "me.shedaniel.cloth:config-2:forge:4.17.101",
+      "1.16.5": "me.shedaniel.cloth:cloth-config-forge:4.17.101",
       "1.18.2": "me.shedaniel.cloth:cloth-config-forge:6.5.102",
       "1.19.2": "me.shedaniel.cloth:cloth-config-forge:8.3.103",
       "1.19.3": "me.shedaniel.cloth:cloth-config-forge:9.1.104",
