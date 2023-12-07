@@ -7,6 +7,7 @@
       "1.19.2": "net.fabricmc:yarn:1.19.2+build.28:v2",
       "1.19.3": "net.fabricmc:yarn:1.19.3+build.5:v2",
       "1.19.4": "net.fabricmc:yarn:1.19.4+build.2:v2",
+      "1.20": "net.fabricmc:yarn:1.20+build.1:v2",
       "1.20.1": "net.fabricmc:yarn:1.20.1+build.10:v2",
       "1.20.2": "net.fabricmc:yarn:1.20.2+build.4:v2",
       "1.20.3": "net.fabricmc:yarn:1.20.3+build.1:v2"
@@ -17,6 +18,7 @@
       "1.19.2": "net.fabricmc.fabric-api:fabric-api:0.77.0+1.19.2",
       "1.19.3": "net.fabricmc.fabric-api:fabric-api:0.76.1+1.19.3",
       "1.19.4": "net.fabricmc.fabric-api:fabric-api:0.87.2+1.19.4",
+      "1.20": "net.fabricmc.fabric-api:fabric-api:0.83.0+1.20",
       "1.20.1": "net.fabricmc.fabric-api:fabric-api:0.91.0+1.20.1",
       "1.20.2": "net.fabricmc.fabric-api:fabric-api:0.91.1+1.20.2",
       "1.20.3": "net.fabricmc.fabric-api:fabric-api:0.91.1+1.20.3"
@@ -27,6 +29,7 @@
       "1.19.2": "com.terraformersmc:modmenu:4.2.0-beta.2",
       "1.19.3": "com.terraformersmc:modmenu:5.1.0",
       "1.19.4": "com.terraformersmc:modmenu:6.3.1",
+      "1.20": "com.terraformersmc:modmenu:7.0.1",
       "1.20.1": "com.terraformersmc:modmenu:7.2.2",
       "1.20.2": "com.terraformersmc:modmenu:8.0.0",
       "1.20.3": "com.terraformersmc:modmenu:9.0.0-pre.1"
@@ -39,6 +42,7 @@
       "1.19.2": "org.quiltmc:qsl:3.0.0-beta.29+1.19.2",
       "1.19.3": "org.quiltmc:qsl:4.0.0-beta.13+1.19.3",
       "1.19.4": "org.quiltmc:qsl:5.0.0-beta.11+1.19.4",
+      "1.20": "org.quiltmc:qsl:6.0.1+1.20",
       "1.20.1": "org.quiltmc:qsl:6.1.2+1.20.1"
     },
     "quilted-fabric-api": {
@@ -46,6 +50,7 @@
       "1.19.2": "org.quiltmc.quilted-fabric-api:quilted-fabric-api:4.0.0-beta.30+0.76.0-1.19.2",
       "1.19.3": "org.quiltmc.quilted-fabric-api:quilted-fabric-api:5.0.0-beta.9+0.76.0-1.19.3",
       "1.19.4": "org.quiltmc.quilted-fabric-api:quilted-fabric-api:6.0.0-beta.11+0.87.0-1.19.4",
+      "1.20": "org.quiltmc.quilted-fabric-api:quilted-fabric-api:7.0.1+0.83.0-1.20",
       "1.20.1": "org.quiltmc.quilted-fabric-api:quilted-fabric-api:7.4.0+0.90.0-1.20.1"
     }
   },
@@ -56,14 +61,16 @@
       "1.19.2": "net.minecraftforge:forge:1.19.2-43.3.5",
       "1.19.3": "net.minecraftforge:forge:1.19.3-44.1.23",
       "1.19.4": "net.minecraftforge:forge:1.19.4-45.2.6",
+      "1.20": "net.minecraftforge:forge:1.20-46.0.14",
       "1.20.1": "net.minecraftforge:forge:1.20.1-47.2.17",
-      "1.20.2": "net.minecraftforge:forge:1.20.2-48.0.49"
+      "1.20.2": "net.minecraftforge:forge:1.20.2-48.1.0",
+      "1.20.3": "net.minecraftforge:forge:1.20.3-49.0.2"
     }
   },
   "neoforge": {
     "neoforge": {
       "1.20.2": "net.neoforged:neoforge:20.2.86",
-      "1.20.3": "net.neoforged:neoforge:20.3.2-beta"
+      "1.20.3": "net.neoforged:neoforge:20.3.7-beta"
     }
   },
   "architectury-api": {
@@ -73,6 +80,7 @@
       "1.19.2": "dev.architectury:architectury-fabric:6.5.85",
       "1.19.3": "dev.architectury:architectury-fabric:7.1.86",
       "1.19.4": "dev.architectury:architectury-fabric:8.2.89",
+      "1.20": "dev.architectury:architectury-fabric:9.1.12",
       "1.20.1": "dev.architectury:architectury-fabric:9.1.12",
       "1.20.2": "dev.architectury:architectury-fabric:10.0.16"
     },
@@ -82,6 +90,7 @@
       "1.19.2": "dev.architectury:architectury-forge:6.5.85",
       "1.19.3": "dev.architectury:architectury-forge:7.1.86",
       "1.19.4": "dev.architectury:architectury-forge:8.2.89",
+      "1.20": "dev.architectury:architectury-forge:9.1.12",
       "1.20.1": "dev.architectury:architectury-forge:9.1.12",
       "1.20.2": "dev.architectury:architectury-forge:10.0.16"
     },
@@ -96,6 +105,7 @@
       "1.19.2": "me.shedaniel:RoughlyEnoughItems-fabric:9.1.668",
       "1.19.3": "me.shedaniel:RoughlyEnoughItems-fabric:10.0.646",
       "1.19.4": "me.shedaniel:RoughlyEnoughItems-fabric:11.0.673",
+      "1.20": "me.shedaniel:RoughlyEnoughItems-fabric:12.0.674",
       "1.20.1": "me.shedaniel:RoughlyEnoughItems-fabric:12.0.674",
       "1.20.2": "me.shedaniel:RoughlyEnoughItems-fabric:13.0.678"
     },
@@ -105,6 +115,7 @@
       "1.19.2": "me.shedaniel:RoughlyEnoughItems-forge:9.1.668",
       "1.19.3": "me.shedaniel:RoughlyEnoughItems-forge:10.0.646",
       "1.19.4": "me.shedaniel:RoughlyEnoughItems-forge:11.0.673",
+      "1.20": "me.shedaniel:RoughlyEnoughItems-forge:12.0.674",
       "1.20.1": "me.shedaniel:RoughlyEnoughItems-forge:12.0.674",
       "1.20.2": "me.shedaniel:RoughlyEnoughItems-forge:13.0.678"
     },
@@ -119,6 +130,7 @@
       "1.19.2": "me.shedaniel.cloth:cloth-config-fabric:8.3.103",
       "1.19.3": "me.shedaniel.cloth:cloth-config-fabric:9.1.104",
       "1.19.4": "me.shedaniel.cloth:cloth-config-fabric:10.1.105",
+      "1.20": "me.shedaniel.cloth:cloth-config-fabric:11.1.106",
       "1.20.1": "me.shedaniel.cloth:cloth-config-fabric:11.1.106",
       "1.20.2": "me.shedaniel.cloth:cloth-config-fabric:12.0.111"
     },
@@ -128,6 +140,7 @@
       "1.19.2": "me.shedaniel.cloth:cloth-config-forge:8.3.103",
       "1.19.3": "me.shedaniel.cloth:cloth-config-forge:9.1.104",
       "1.19.4": "me.shedaniel.cloth:cloth-config-forge:10.1.105",
+      "1.20": "me.shedaniel.cloth:cloth-config-forge:12.0.109",
       "1.20.1": "me.shedaniel.cloth:cloth-config-forge:12.0.109",
       "1.20.2": "me.shedaniel.cloth:cloth-config-forge:12.0.111"
     },
