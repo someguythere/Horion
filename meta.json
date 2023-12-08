@@ -10,7 +10,8 @@
       "1.20": "net.fabricmc:yarn:1.20+build.1:v2",
       "1.20.1": "net.fabricmc:yarn:1.20.1+build.10:v2",
       "1.20.2": "net.fabricmc:yarn:1.20.2+build.4:v2",
-      "1.20.3": "net.fabricmc:yarn:1.20.3+build.1:v2"
+      "1.20.3": "net.fabricmc:yarn:1.20.3+build.1:v2",
+      "1.20.4": "net.fabricmc:yarn:1.20.4+build.1:v2"
     },
     "fabric-api": {
       "1.16.5": "net.fabricmc.fabric-api:fabric-api:0.42.0+1.16",
@@ -21,7 +22,8 @@
       "1.20": "net.fabricmc.fabric-api:fabric-api:0.83.0+1.20",
       "1.20.1": "net.fabricmc.fabric-api:fabric-api:0.91.0+1.20.1",
       "1.20.2": "net.fabricmc.fabric-api:fabric-api:0.91.1+1.20.2",
-      "1.20.3": "net.fabricmc.fabric-api:fabric-api:0.91.1+1.20.3"
+      "1.20.3": "net.fabricmc.fabric-api:fabric-api:0.91.1+1.20.3",
+      "1.20.4": "net.fabricmc.fabric-api:fabric-api:0.91.1+1.20.4"
     },
     "modmenu": {
       "1.16.5": "com.terraformersmc:modmenu:1.16.23",
@@ -32,7 +34,8 @@
       "1.20": "com.terraformersmc:modmenu:7.0.1",
       "1.20.1": "com.terraformersmc:modmenu:7.2.2",
       "1.20.2": "com.terraformersmc:modmenu:8.0.0",
-      "1.20.3": "com.terraformersmc:modmenu:9.0.0-pre.1"
+      "1.20.3": "com.terraformersmc:modmenu:9.0.0-pre.1",
+      "1.20.4": "com.terraformersmc:modmenu:9.0.0-pre.1"
     }
   },
   "quilt": {
@@ -64,13 +67,15 @@
       "1.20": "net.minecraftforge:forge:1.20-46.0.14",
       "1.20.1": "net.minecraftforge:forge:1.20.1-47.2.17",
       "1.20.2": "net.minecraftforge:forge:1.20.2-48.1.0",
-      "1.20.3": "net.minecraftforge:forge:1.20.3-49.0.2"
+      "1.20.3": "net.minecraftforge:forge:1.20.3-49.0.2",
+      "1.20.4": "net.minecraftforge:forge:1.20.4-49.0.3"
     }
   },
   "neoforge": {
     "neoforge": {
       "1.20.2": "net.neoforged:neoforge:20.2.86",
-      "1.20.3": "net.neoforged:neoforge:20.3.7-beta"
+      "1.20.3": "net.neoforged:neoforge:20.3.8-beta",
+      "1.20.4": "net.neoforged:neoforge:20.4.3-beta"
     }
   },
   "architectury-api": {
