@@ -29,7 +29,7 @@ public class Konkrete implements Deps {
                 for (String mcVersion : mcVersions) {
                     try {
                         String dep = array.stream().filter(a -> a.getAsJsonArray("game_versions").asList().stream().map(b -> b.getAsString()).toList().contains(mcVersion) && a.getAsJsonArray("loaders").asList().stream().map(b -> b.getAsString()).toList().contains(s)).findFirst().orElseThrow().getAsJsonPrimitive("id").getAsString().split("\\+")[0];
-                        String prefix = "maven.modrinth:fancymenu:";
+                        String prefix = "maven.modrinth:konkrete:";
                         loaders.get(s).put(mcVersion, prefix + dep);
                     } catch (Throwable t) {
                         System.err.println("Failed to fetch version for " + mcVersion);
