@@ -174,5 +174,49 @@
       "1.20": "maven.modrinth:main-menu-credits:hWX5REu6",
       "1.20.1": "maven.modrinth:main-menu-credits:hWX5REu6"
     }
+  },
+  "fancymenu": {
+    "fabric": {
+      "1.18.2": "maven.modrinth:fancymenu:2xGuUN8s",
+      "1.19.2": "maven.modrinth:fancymenu:Y9wphxc2",
+      "1.19.3": "maven.modrinth:fancymenu:zGVCWJ66",
+      "1.19.4": "maven.modrinth:fancymenu:BQwVkNAv",
+      "1.20": "maven.modrinth:fancymenu:VbJOHkC3",
+      "1.20.1": "maven.modrinth:fancymenu:Bil39jzv",
+      "1.20.2": "maven.modrinth:fancymenu:g9m0mGt5"
+    },
+    "forge": {
+      "1.16.5": "maven.modrinth:fancymenu:5K7N5IDG",
+      "1.18.2": "maven.modrinth:fancymenu:wm2d5Wk7",
+      "1.19.2": "maven.modrinth:fancymenu:Wy9vG6hV",
+      "1.19.3": "maven.modrinth:fancymenu:ps3ccIKg",
+      "1.19.4": "maven.modrinth:fancymenu:SGIBwksx",
+      "1.20": "maven.modrinth:fancymenu:J3jmQAzt",
+      "1.20.1": "maven.modrinth:fancymenu:C7dPPLt1",
+      "1.20.2": "maven.modrinth:fancymenu:3OKTPFrl"
+    },
+    "neoforge": {}
+  },
+  "konkrete": {
+    "fabric": {
+      "1.18.2": "maven.modrinth:fancymenu:L4bTPMly",
+      "1.19.2": "maven.modrinth:fancymenu:pz9SoIJL",
+      "1.19.3": "maven.modrinth:fancymenu:4y9cJbpy",
+      "1.19.4": "maven.modrinth:fancymenu:njrUss7i",
+      "1.20": "maven.modrinth:fancymenu:fNYbw69M",
+      "1.20.1": "maven.modrinth:fancymenu:Az1kEuIr",
+      "1.20.2": "maven.modrinth:fancymenu:qsYMqjlM"
+    },
+    "forge": {
+      "1.16.5": "maven.modrinth:fancymenu:MFN5Cgup",
+      "1.18.2": "maven.modrinth:fancymenu:drdxtCrM",
+      "1.19.2": "maven.modrinth:fancymenu:a4UZ7nGe",
+      "1.19.3": "maven.modrinth:fancymenu:CTjhm1dN",
+      "1.19.4": "maven.modrinth:fancymenu:hOqG5qTT",
+      "1.20": "maven.modrinth:fancymenu:9o3SSmd1",
+      "1.20.1": "maven.modrinth:fancymenu:9o3SSmd1",
+      "1.20.2": "maven.modrinth:fancymenu:KI6udyr4"
+    },
+    "neoforge": {}
   }
 }

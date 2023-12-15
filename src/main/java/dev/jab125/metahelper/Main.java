@@ -21,7 +21,9 @@ public class Main {
             new ArchitecturyApi(),
             new RoughlyEnoughItems(),
             new ClothConfig(),
-            new MainMenuCredits()
+            new MainMenuCredits(),
+            new FancyMenu(),
+            new Konkrete()
     };
 
     public static void main(String[] args) throws Throwable {
