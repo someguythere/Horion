@@ -20,7 +20,8 @@ public class Main {
             new NeoForge(),
             new ArchitecturyApi(),
             new RoughlyEnoughItems(),
-            new ClothConfig()
+            new ClothConfig(),
+            new MainMenuCredits()
     };
 
     public static void main(String[] args) throws Throwable {
