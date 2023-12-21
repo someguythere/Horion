@@ -138,31 +138,31 @@
     "fabric": {
       "1.16.5": "me.shedaniel.cloth:cloth-config-fabric:4.17.101",
       "1.18.2": "me.shedaniel.cloth:cloth-config-fabric:6.5.102",
-      "1.19.2": "me.shedaniel.cloth:cloth-config-fabric:8.3.103",
+      "1.19.2": "me.shedaniel.cloth:cloth-config-fabric:8.3.115",
       "1.19.3": "me.shedaniel.cloth:cloth-config-fabric:9.1.104",
-      "1.19.4": "me.shedaniel.cloth:cloth-config-fabric:10.1.105",
-      "1.20": "me.shedaniel.cloth:cloth-config-fabric:11.1.106",
-      "1.20.1": "me.shedaniel.cloth:cloth-config-fabric:11.1.106",
-      "1.20.2": "me.shedaniel.cloth:cloth-config-fabric:12.0.113",
-      "1.20.3": "me.shedaniel.cloth:cloth-config-fabric:13.0.114",
-      "1.20.4": "me.shedaniel.cloth:cloth-config-fabric:13.0.114"
+      "1.19.4": "me.shedaniel.cloth:cloth-config-fabric:10.1.117",
+      "1.20": "me.shedaniel.cloth:cloth-config-fabric:11.1.118",
+      "1.20.1": "me.shedaniel.cloth:cloth-config-fabric:11.1.118",
+      "1.20.2": "me.shedaniel.cloth:cloth-config-fabric:12.0.119",
+      "1.20.3": "me.shedaniel.cloth:cloth-config-fabric:13.0.121",
+      "1.20.4": "me.shedaniel.cloth:cloth-config-fabric:13.0.121"
     },
     "forge": {
       "1.16.5": "me.shedaniel.cloth:cloth-config-forge:4.17.101",
       "1.18.2": "me.shedaniel.cloth:cloth-config-forge:6.5.102",
-      "1.19.2": "me.shedaniel.cloth:cloth-config-forge:8.3.103",
+      "1.19.2": "me.shedaniel.cloth:cloth-config-forge:8.3.115",
       "1.19.3": "me.shedaniel.cloth:cloth-config-forge:9.1.104",
-      "1.19.4": "me.shedaniel.cloth:cloth-config-forge:10.1.105",
-      "1.20": "me.shedaniel.cloth:cloth-config-forge:12.0.109",
-      "1.20.1": "me.shedaniel.cloth:cloth-config-forge:12.0.109",
-      "1.20.2": "me.shedaniel.cloth:cloth-config-forge:12.0.113",
-      "1.20.3": "me.shedaniel.cloth:cloth-config-forge:13.0.114",
-      "1.20.4": "me.shedaniel.cloth:cloth-config-forge:13.0.114"
+      "1.19.4": "me.shedaniel.cloth:cloth-config-forge:10.1.117",
+      "1.20": "me.shedaniel.cloth:cloth-config-forge:11.1.118",
+      "1.20.1": "me.shedaniel.cloth:cloth-config-forge:11.1.118",
+      "1.20.2": "me.shedaniel.cloth:cloth-config-forge:12.0.119",
+      "1.20.3": "me.shedaniel.cloth:cloth-config-forge:13.0.121",
+      "1.20.4": "me.shedaniel.cloth:cloth-config-forge:13.0.121"
     },
     "neoforge": {
-      "1.20.2": "me.shedaniel.cloth:cloth-config-neoforge:12.0.113",
-      "1.20.3": "me.shedaniel.cloth:cloth-config-neoforge:13.0.114",
-      "1.20.4": "me.shedaniel.cloth:cloth-config-neoforge:13.0.114"
+      "1.20.2": "me.shedaniel.cloth:cloth-config-neoforge:12.0.119",
+      "1.20.3": "me.shedaniel.cloth:cloth-config-neoforge:13.0.121",
+      "1.20.4": "me.shedaniel.cloth:cloth-config-neoforge:13.0.121"
     }
   },
   "main-menu-credits": {
