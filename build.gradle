@@ -1,6 +1,7 @@
 plugins {
-    id 'java'
+    id 'application'
 }
+apply plugin: "java"
 
 group 'dev.jab125'
 version '1.0-SNAPSHOT'
@@ -19,4 +20,19 @@ dependencies {
 
 test {
     useJUnitPlatform()
+}
+
+ext {
+    javaMainClass = "dev.jab125.metahelper.Main"
+}
+
+application {
+    mainClassName = javaMainClass
+}
+
+task fetchVersions(type: JavaExec) {
+    group = "meta-helper"
+    description = "Run the main class with JavaExecTask"
+    classpath = sourceSets.main.runtimeClasspath
+    main = javaMainClass
 }
