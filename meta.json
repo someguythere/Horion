@@ -75,7 +75,7 @@
     "neoforge": {
       "1.20.2": "net.neoforged:neoforge:20.2.86",
       "1.20.3": "net.neoforged:neoforge:20.3.8-beta",
-      "1.20.4": "net.neoforged:neoforge:20.4.57-beta"
+      "1.20.4": "net.neoforged:neoforge:20.4.58-beta"
     }
   },
   "architectury-api": {
