@@ -14,28 +14,28 @@
       "1.20.4": "net.fabricmc:yarn:1.20.4+build.3:v2"
     },
     "fabric-api": {
-      "1.16.5": "net.fabricmc.fabric-api:fabric-api:0.42.0+1.16",
-      "1.18.2": "net.fabricmc.fabric-api:fabric-api:0.77.0+1.18.2",
-      "1.19.2": "net.fabricmc.fabric-api:fabric-api:0.77.0+1.19.2",
-      "1.19.3": "net.fabricmc.fabric-api:fabric-api:0.76.1+1.19.3",
-      "1.19.4": "net.fabricmc.fabric-api:fabric-api:0.87.2+1.19.4",
+      "1.16.5": "net.fabricmc.fabric-api:fabric-api:0.29.4+1.16",
+      "1.18.2": "net.fabricmc.fabric-api:fabric-api:0.47.8+1.18.2",
+      "1.19.2": "net.fabricmc.fabric-api:fabric-api:0.58.6+1.19.2",
+      "1.19.3": "net.fabricmc.fabric-api:fabric-api:0.68.1+1.19.3",
+      "1.19.4": "net.fabricmc.fabric-api:fabric-api:0.75.3+1.19.4",
       "1.20": "net.fabricmc.fabric-api:fabric-api:0.83.0+1.20",
-      "1.20.1": "net.fabricmc.fabric-api:fabric-api:0.91.0+1.20.1",
-      "1.20.2": "net.fabricmc.fabric-api:fabric-api:0.91.3+1.20.2",
+      "1.20.1": "net.fabricmc.fabric-api:fabric-api:0.83.0+1.20.1",
+      "1.20.2": "net.fabricmc.fabric-api:fabric-api:0.89.0+1.20.2",
       "1.20.3": "net.fabricmc.fabric-api:fabric-api:0.91.1+1.20.3",
-      "1.20.4": "net.fabricmc.fabric-api:fabric-api:0.92.1+1.20.4"
+      "1.20.4": "net.fabricmc.fabric-api:fabric-api:0.91.1+1.20.4"
     },
     "modmenu": {
-      "1.16.5": "com.terraformersmc:modmenu:1.16.23",
-      "1.18.2": "com.terraformersmc:modmenu:3.2.5",
-      "1.19.2": "com.terraformersmc:modmenu:4.2.0-beta.2",
-      "1.19.3": "com.terraformersmc:modmenu:5.1.0",
-      "1.19.4": "com.terraformersmc:modmenu:6.3.1",
-      "1.20": "com.terraformersmc:modmenu:7.0.1",
-      "1.20.1": "com.terraformersmc:modmenu:7.2.2",
-      "1.20.2": "com.terraformersmc:modmenu:8.0.1",
-      "1.20.3": "com.terraformersmc:modmenu:9.0.0",
-      "1.20.4": "com.terraformersmc:modmenu:9.0.0"
+      "1.16.5": "com.terraformersmc:modmenu:1.14.15",
+      "1.18.2": "com.terraformersmc:modmenu:3.0.1",
+      "1.19.2": "com.terraformersmc:modmenu:4.0.6",
+      "1.19.3": "com.terraformersmc:modmenu:5.0.0",
+      "1.19.4": "com.terraformersmc:modmenu:6.1.0-rc.1",
+      "1.20": "com.terraformersmc:modmenu:7.0.0",
+      "1.20.1": "com.terraformersmc:modmenu:7.0.1",
+      "1.20.2": "com.terraformersmc:modmenu:8.0.0-beta.2",
+      "1.20.3": "com.terraformersmc:modmenu:9.0.0-pre.1",
+      "1.20.4": "com.terraformersmc:modmenu:9.0.0-pre.1"
     }
   },
   "quilt": {
@@ -80,94 +80,94 @@
   },
   "architectury-api": {
     "fabric": {
-      "1.16.5": "dev.architectury:architectury-fabric:1.32.68",
-      "1.18.2": "dev.architectury:architectury-fabric:4.11.93",
-      "1.19.2": "dev.architectury:architectury-fabric:6.5.85",
-      "1.19.3": "dev.architectury:architectury-fabric:7.1.86",
-      "1.19.4": "dev.architectury:architectury-fabric:8.2.89",
-      "1.20": "dev.architectury:architectury-fabric:9.1.12",
-      "1.20.1": "dev.architectury:architectury-fabric:9.1.12",
-      "1.20.2": "dev.architectury:architectury-fabric:10.0.17",
-      "1.20.4": "dev.architectury:architectury-fabric:11.0.9"
+      "1.16.5": "dev.architectury:architectury-fabric:1.32.63",
+      "1.18.2": "dev.architectury:architectury-fabric:4.4.61",
+      "1.19.2": "dev.architectury:architectury-fabric:6.0.37",
+      "1.19.3": "dev.architectury:architectury-fabric:7.0.63",
+      "1.19.4": "dev.architectury:architectury-fabric:8.1.73",
+      "1.20": "dev.architectury:architectury-fabric:9.0.6",
+      "1.20.1": "dev.architectury:architectury-fabric:9.0.8",
+      "1.20.2": "dev.architectury:architectury-fabric:10.0.7",
+      "1.20.4": "dev.architectury:architectury-fabric:11.0.7"
     },
     "forge": {
-      "1.16.5": "dev.architectury:architectury-forge:1.32.68",
-      "1.18.2": "dev.architectury:architectury-forge:4.11.93",
-      "1.19.2": "dev.architectury:architectury-forge:6.5.85",
-      "1.19.3": "dev.architectury:architectury-forge:7.1.86",
-      "1.19.4": "dev.architectury:architectury-forge:8.2.89",
-      "1.20": "dev.architectury:architectury-forge:9.1.12",
-      "1.20.1": "dev.architectury:architectury-forge:9.1.12",
-      "1.20.2": "dev.architectury:architectury-forge:10.0.17",
-      "1.20.4": "dev.architectury:architectury-forge:11.0.9"
+      "1.16.5": "dev.architectury:architectury-forge:1.32.63",
+      "1.18.2": "dev.architectury:architectury-forge:4.4.61",
+      "1.19.2": "dev.architectury:architectury-forge:6.0.37",
+      "1.19.3": "dev.architectury:architectury-forge:7.0.63",
+      "1.19.4": "dev.architectury:architectury-forge:8.1.73",
+      "1.20": "dev.architectury:architectury-forge:9.0.6",
+      "1.20.1": "dev.architectury:architectury-forge:9.0.8",
+      "1.20.2": "dev.architectury:architectury-forge:10.0.8",
+      "1.20.4": "dev.architectury:architectury-forge:11.0.7"
     },
     "neoforge": {
-      "1.20.2": "dev.architectury:architectury-neoforge:10.0.17",
-      "1.20.4": "dev.architectury:architectury-neoforge:11.0.9"
+      "1.20.2": "dev.architectury:architectury-neoforge:10.0.11",
+      "1.20.4": "dev.architectury:architectury-neoforge:11.0.7"
     }
   },
   "roughly-enough-items": {
     "fabric": {
       "1.16.5": "me.shedaniel:RoughlyEnoughItems-fabric:6.5.433",
-      "1.18.2": "me.shedaniel:RoughlyEnoughItems-fabric:8.3.681",
-      "1.19.2": "me.shedaniel:RoughlyEnoughItems-fabric:9.1.682",
-      "1.19.3": "me.shedaniel:RoughlyEnoughItems-fabric:10.0.646",
-      "1.19.4": "me.shedaniel:RoughlyEnoughItems-fabric:11.0.683",
-      "1.20": "me.shedaniel:RoughlyEnoughItems-fabric:12.0.684",
-      "1.20.1": "me.shedaniel:RoughlyEnoughItems-fabric:12.0.684",
-      "1.20.2": "me.shedaniel:RoughlyEnoughItems-fabric:13.0.685",
-      "1.20.4": "me.shedaniel:RoughlyEnoughItems-fabric:14.0.688"
+      "1.18.2": "me.shedaniel:RoughlyEnoughItems-fabric:8.2.479",
+      "1.19.2": "me.shedaniel:RoughlyEnoughItems-fabric:9.1.524",
+      "1.19.3": "me.shedaniel:RoughlyEnoughItems-fabric:10.0.578",
+      "1.19.4": "me.shedaniel:RoughlyEnoughItems-fabric:11.0.593",
+      "1.20": "me.shedaniel:RoughlyEnoughItems-fabric:12.0.622",
+      "1.20.1": "me.shedaniel:RoughlyEnoughItems-fabric:12.0.625",
+      "1.20.2": "me.shedaniel:RoughlyEnoughItems-fabric:13.0.655",
+      "1.20.4": "me.shedaniel:RoughlyEnoughItems-fabric:14.0.680"
     },
     "forge": {
       "1.16.5": "me.shedaniel:RoughlyEnoughItems-forge:6.5.433",
-      "1.18.2": "me.shedaniel:RoughlyEnoughItems-forge:8.3.681",
-      "1.19.2": "me.shedaniel:RoughlyEnoughItems-forge:9.1.682",
-      "1.19.3": "me.shedaniel:RoughlyEnoughItems-forge:10.0.646",
-      "1.19.4": "me.shedaniel:RoughlyEnoughItems-forge:11.0.683",
-      "1.20": "me.shedaniel:RoughlyEnoughItems-forge:12.0.684",
-      "1.20.1": "me.shedaniel:RoughlyEnoughItems-forge:12.0.684",
-      "1.20.2": "me.shedaniel:RoughlyEnoughItems-forge:13.0.685",
-      "1.20.4": "me.shedaniel:RoughlyEnoughItems-forge:14.0.688"
+      "1.18.2": "me.shedaniel:RoughlyEnoughItems-forge:8.2.479",
+      "1.19.2": "me.shedaniel:RoughlyEnoughItems-forge:9.1.522",
+      "1.19.3": "me.shedaniel:RoughlyEnoughItems-forge:10.0.578",
+      "1.19.4": "me.shedaniel:RoughlyEnoughItems-forge:11.0.593",
+      "1.20": "me.shedaniel:RoughlyEnoughItems-forge:12.0.624",
+      "1.20.1": "me.shedaniel:RoughlyEnoughItems-forge:12.0.625",
+      "1.20.2": "me.shedaniel:RoughlyEnoughItems-forge:13.0.671",
+      "1.20.4": "me.shedaniel:RoughlyEnoughItems-forge:14.0.687"
     },
     "neoforge": {
-      "1.20.2": "me.shedaniel:RoughlyEnoughItems-neoforge:13.0.685",
-      "1.20.4": "me.shedaniel:RoughlyEnoughItems-neoforge:14.0.688"
+      "1.20.2": "me.shedaniel:RoughlyEnoughItems-neoforge:13.0.678",
+      "1.20.4": "me.shedaniel:RoughlyEnoughItems-neoforge:14.0.680"
     }
   },
   "cloth-config": {
     "fabric": {
-      "1.16.5": "me.shedaniel.cloth:cloth-config-fabric:4.17.101",
-      "1.18.2": "me.shedaniel.cloth:cloth-config-fabric:6.5.102",
-      "1.19.2": "me.shedaniel.cloth:cloth-config-fabric:8.3.115",
-      "1.19.3": "me.shedaniel.cloth:cloth-config-fabric:9.1.104",
-      "1.19.4": "me.shedaniel.cloth:cloth-config-fabric:10.1.117",
-      "1.20": "me.shedaniel.cloth:cloth-config-fabric:11.1.118",
-      "1.20.1": "me.shedaniel.cloth:cloth-config-fabric:11.1.118",
-      "1.20.2": "me.shedaniel.cloth:cloth-config-fabric:12.0.119",
-      "1.20.3": "me.shedaniel.cloth:cloth-config-fabric:13.0.121",
-      "1.20.4": "me.shedaniel.cloth:cloth-config-fabric:13.0.121"
+      "1.16.5": "me.shedaniel.cloth:cloth-config-fabric:4.14.54",
+      "1.18.2": "me.shedaniel.cloth:cloth-config-fabric:6.2.57",
+      "1.19.2": "me.shedaniel.cloth:cloth-config-fabric:8.0.75",
+      "1.19.3": "me.shedaniel.cloth:cloth-config-fabric:9.0.94",
+      "1.19.4": "me.shedaniel.cloth:cloth-config-fabric:10.0.96",
+      "1.20": "me.shedaniel.cloth:cloth-config-fabric:11.0.99",
+      "1.20.1": "me.shedaniel.cloth:cloth-config-fabric:11.0.99",
+      "1.20.2": "me.shedaniel.cloth:cloth-config-fabric:12.0.108",
+      "1.20.3": "me.shedaniel.cloth:cloth-config-fabric:13.0.112",
+      "1.20.4": "me.shedaniel.cloth:cloth-config-fabric:13.0.112"
     },
     "forge": {
-      "1.16.5": "me.shedaniel.cloth:cloth-config-forge:4.17.101",
-      "1.18.2": "me.shedaniel.cloth:cloth-config-forge:6.5.102",
-      "1.19.2": "me.shedaniel.cloth:cloth-config-forge:8.3.115",
-      "1.19.3": "me.shedaniel.cloth:cloth-config-forge:9.1.104",
-      "1.19.4": "me.shedaniel.cloth:cloth-config-forge:10.1.117",
-      "1.20": "me.shedaniel.cloth:cloth-config-forge:11.1.118",
-      "1.20.1": "me.shedaniel.cloth:cloth-config-forge:11.1.118",
-      "1.20.2": "me.shedaniel.cloth:cloth-config-forge:12.0.119",
-      "1.20.3": "me.shedaniel.cloth:cloth-config-forge:13.0.121",
-      "1.20.4": "me.shedaniel.cloth:cloth-config-forge:13.0.121"
+      "1.16.5": "me.shedaniel.cloth:cloth-config-forge:4.14.54",
+      "1.18.2": "me.shedaniel.cloth:cloth-config-forge:6.2.57",
+      "1.19.2": "me.shedaniel.cloth:cloth-config-forge:8.0.75",
+      "1.19.3": "me.shedaniel.cloth:cloth-config-forge:9.0.94",
+      "1.19.4": "me.shedaniel.cloth:cloth-config-forge:10.0.96",
+      "1.20": "me.shedaniel.cloth:cloth-config-forge:11.0.99",
+      "1.20.1": "me.shedaniel.cloth:cloth-config-forge:11.0.99",
+      "1.20.2": "me.shedaniel.cloth:cloth-config-forge:12.0.110",
+      "1.20.3": "me.shedaniel.cloth:cloth-config-forge:13.0.112",
+      "1.20.4": "me.shedaniel.cloth:cloth-config-forge:13.0.112"
     },
     "neoforge": {
-      "1.20.2": "me.shedaniel.cloth:cloth-config-neoforge:12.0.119",
-      "1.20.3": "me.shedaniel.cloth:cloth-config-neoforge:13.0.121",
-      "1.20.4": "me.shedaniel.cloth:cloth-config-neoforge:13.0.121"
+      "1.20.2": "me.shedaniel.cloth:cloth-config-neoforge:12.0.110",
+      "1.20.3": "me.shedaniel.cloth:cloth-config-neoforge:13.0.112",
+      "1.20.4": "me.shedaniel.cloth:cloth-config-neoforge:13.0.112"
     }
   },
   "main-menu-credits": {
     "fabric": {
-      "1.18.2": "maven.modrinth:main-menu-credits:riozoxJO",
+      "1.18.2": "maven.modrinth:main-menu-credits:BmmLQZZ8",
       "1.19.2": "maven.modrinth:main-menu-credits:riozoxJO",
       "1.19.3": "maven.modrinth:main-menu-credits:riozoxJO",
       "1.19.4": "maven.modrinth:main-menu-credits:hWX5REu6",
@@ -177,48 +177,48 @@
   },
   "fancymenu": {
     "fabric": {
-      "1.18.2": "maven.modrinth:fancymenu:2xGuUN8s",
-      "1.19.2": "maven.modrinth:fancymenu:Y9wphxc2",
-      "1.19.3": "maven.modrinth:fancymenu:zGVCWJ66",
-      "1.19.4": "maven.modrinth:fancymenu:BQwVkNAv",
-      "1.20": "maven.modrinth:fancymenu:VbJOHkC3",
-      "1.20.1": "maven.modrinth:fancymenu:Bil39jzv",
-      "1.20.2": "maven.modrinth:fancymenu:g9m0mGt5",
+      "1.18.2": "maven.modrinth:fancymenu:TuHHv9KT",
+      "1.19.2": "maven.modrinth:fancymenu:EUgXpARN",
+      "1.19.3": "maven.modrinth:fancymenu:yzpMzdhq",
+      "1.19.4": "maven.modrinth:fancymenu:QsmigEls",
+      "1.20": "maven.modrinth:fancymenu:kuxEkdmH",
+      "1.20.1": "maven.modrinth:fancymenu:c6U1TsBw",
+      "1.20.2": "maven.modrinth:fancymenu:bzs4Oz6Z",
       "1.20.4": "maven.modrinth:fancymenu:HmCwDuEQ"
     },
     "forge": {
-      "1.16.5": "maven.modrinth:fancymenu:5K7N5IDG",
-      "1.18.2": "maven.modrinth:fancymenu:wm2d5Wk7",
-      "1.19.2": "maven.modrinth:fancymenu:Wy9vG6hV",
-      "1.19.3": "maven.modrinth:fancymenu:ps3ccIKg",
-      "1.19.4": "maven.modrinth:fancymenu:SGIBwksx",
-      "1.20": "maven.modrinth:fancymenu:J3jmQAzt",
-      "1.20.1": "maven.modrinth:fancymenu:C7dPPLt1",
-      "1.20.2": "maven.modrinth:fancymenu:3OKTPFrl",
+      "1.16.5": "maven.modrinth:fancymenu:s3QAe6wC",
+      "1.18.2": "maven.modrinth:fancymenu:YFqkqHgX",
+      "1.19.2": "maven.modrinth:fancymenu:gpbRABOz",
+      "1.19.3": "maven.modrinth:fancymenu:IuhhSnKu",
+      "1.19.4": "maven.modrinth:fancymenu:MT8V75nt",
+      "1.20": "maven.modrinth:fancymenu:zJ44aLFE",
+      "1.20.1": "maven.modrinth:fancymenu:J3jmQAzt",
+      "1.20.2": "maven.modrinth:fancymenu:ivJPk1yt",
       "1.20.4": "maven.modrinth:fancymenu:UtAM6VRg"
     },
     "neoforge": {}
   },
   "konkrete": {
     "fabric": {
-      "1.18.2": "maven.modrinth:konkrete:L4bTPMly",
-      "1.19.2": "maven.modrinth:konkrete:pz9SoIJL",
-      "1.19.3": "maven.modrinth:konkrete:4y9cJbpy",
-      "1.19.4": "maven.modrinth:konkrete:njrUss7i",
+      "1.18.2": "maven.modrinth:konkrete:LvcXuxlo",
+      "1.19.2": "maven.modrinth:konkrete:CV2NDI4d",
+      "1.19.3": "maven.modrinth:konkrete:3kzSH4eT",
+      "1.19.4": "maven.modrinth:konkrete:hGJFSkMw",
       "1.20": "maven.modrinth:konkrete:fNYbw69M",
-      "1.20.1": "maven.modrinth:konkrete:Az1kEuIr",
-      "1.20.2": "maven.modrinth:konkrete:qsYMqjlM",
+      "1.20.1": "maven.modrinth:konkrete:fNYbw69M",
+      "1.20.2": "maven.modrinth:konkrete:B7yILQ7L",
       "1.20.4": "maven.modrinth:konkrete:sL2n2zBv"
     },
     "forge": {
-      "1.16.5": "maven.modrinth:konkrete:MFN5Cgup",
-      "1.18.2": "maven.modrinth:konkrete:drdxtCrM",
-      "1.19.2": "maven.modrinth:konkrete:a4UZ7nGe",
-      "1.19.3": "maven.modrinth:konkrete:CTjhm1dN",
-      "1.19.4": "maven.modrinth:konkrete:hOqG5qTT",
+      "1.16.5": "maven.modrinth:konkrete:Th1pzrRC",
+      "1.18.2": "maven.modrinth:konkrete:6rpCP0ic",
+      "1.19.2": "maven.modrinth:konkrete:SXEnoZ3a",
+      "1.19.3": "maven.modrinth:konkrete:qkTaRC9i",
+      "1.19.4": "maven.modrinth:konkrete:fs2RdBWK",
       "1.20": "maven.modrinth:konkrete:9o3SSmd1",
       "1.20.1": "maven.modrinth:konkrete:9o3SSmd1",
-      "1.20.2": "maven.modrinth:konkrete:KI6udyr4",
+      "1.20.2": "maven.modrinth:konkrete:pAy646WB",
       "1.20.4": "maven.modrinth:konkrete:vkSbmyqP"
     },
     "neoforge": {}
