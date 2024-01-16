@@ -4,6 +4,7 @@ import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import dev.jab125.metahelper.Main;
+import dev.jab125.metahelper.util.Changelog;
 import dev.jab125.metahelper.util.Metadata;
 import okhttp3.Request;
 import okhttp3.Response;
@@ -45,6 +46,11 @@ public class Forge implements Deps {
     @Override
     public String id() {
         return "forge";
+    }
+
+    @Override
+    public List<Changelog> changelogs(JsonObject before, JsonObject after) {
+        return null;
     }
 
     @SuppressWarnings("unchecked")
