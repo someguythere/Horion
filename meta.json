@@ -21,7 +21,7 @@
       "1.19.4": "net.fabricmc.fabric-api:fabric-api:0.87.2+1.19.4",
       "1.20": "net.fabricmc.fabric-api:fabric-api:0.83.0+1.20",
       "1.20.1": "net.fabricmc.fabric-api:fabric-api:0.91.0+1.20.1",
-      "1.20.2": "net.fabricmc.fabric-api:fabric-api:0.91.4+1.20.2",
+      "1.20.2": "net.fabricmc.fabric-api:fabric-api:0.91.5+1.20.2",
       "1.20.3": "net.fabricmc.fabric-api:fabric-api:0.91.1+1.20.3",
       "1.20.4": "net.fabricmc.fabric-api:fabric-api:0.95.0+1.20.4"
     },
