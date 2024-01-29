@@ -70,14 +70,14 @@
       "1.20.1": "net.minecraftforge:forge:1.20.1-47.2.20",
       "1.20.2": "net.minecraftforge:forge:1.20.2-48.1.0",
       "1.20.3": "net.minecraftforge:forge:1.20.3-49.0.2",
-      "1.20.4": "net.minecraftforge:forge:1.20.4-49.0.24"
+      "1.20.4": "net.minecraftforge:forge:1.20.4-49.0.26"
     }
   },
   "neoforge": {
     "neoforge": {
       "1.20.2": "net.neoforged:neoforge:20.2.88",
       "1.20.3": "net.neoforged:neoforge:20.3.8-beta",
-      "1.20.4": "net.neoforged:neoforge:20.4.141-beta"
+      "1.20.4": "net.neoforged:neoforge:20.4.142-beta"
     }
   },
   "architectury-api": {
