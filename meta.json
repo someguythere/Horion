@@ -179,25 +179,25 @@
   },
   "fancymenu": {
     "fabric": {
-      "1.18.2": "maven.modrinth:fancymenu:umq3YzV3",
-      "1.19.2": "maven.modrinth:fancymenu:SDsjRxZE",
+      "1.18.2": "maven.modrinth:fancymenu:FTAR3891",
+      "1.19.2": "maven.modrinth:fancymenu:iRDezFmY",
       "1.19.3": "maven.modrinth:fancymenu:zGVCWJ66",
       "1.19.4": "maven.modrinth:fancymenu:BQwVkNAv",
       "1.20": "maven.modrinth:fancymenu:VbJOHkC3",
-      "1.20.1": "maven.modrinth:fancymenu:K08rKy9N",
+      "1.20.1": "maven.modrinth:fancymenu:fJcmxOHy",
       "1.20.2": "maven.modrinth:fancymenu:8eWfCk6V",
-      "1.20.4": "maven.modrinth:fancymenu:risdo0H0"
+      "1.20.4": "maven.modrinth:fancymenu:6nvc8wWc"
     },
     "forge": {
       "1.16.5": "maven.modrinth:fancymenu:5K7N5IDG",
-      "1.18.2": "maven.modrinth:fancymenu:6bQupxFk",
-      "1.19.2": "maven.modrinth:fancymenu:wCPntYhK",
+      "1.18.2": "maven.modrinth:fancymenu:4Dld20RA",
+      "1.19.2": "maven.modrinth:fancymenu:c3GAjVZZ",
       "1.19.3": "maven.modrinth:fancymenu:ps3ccIKg",
       "1.19.4": "maven.modrinth:fancymenu:SGIBwksx",
       "1.20": "maven.modrinth:fancymenu:J3jmQAzt",
-      "1.20.1": "maven.modrinth:fancymenu:Zk6diN42",
+      "1.20.1": "maven.modrinth:fancymenu:8TMjqSDn",
       "1.20.2": "maven.modrinth:fancymenu:f6EZWcZW",
-      "1.20.4": "maven.modrinth:fancymenu:CDNVddQy"
+      "1.20.4": "maven.modrinth:fancymenu:D8SrUAzd"
     },
     "neoforge": {}
   },
