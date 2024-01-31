@@ -5,7 +5,6 @@ import dev.jab125.metahelper.Main;
 import okhttp3.Request;
 import okhttp3.Response;
 
-import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -14,7 +13,7 @@ import static dev.jab125.metahelper.util.Util.jsonArray;
 public class Konkrete implements Deps {
     public static final String KONKRETE_URL = "https://api.modrinth.com/v2/project/konkrete/version";
     @Override
-    public JsonObject get(List<String> mcVersions) throws Throwable {
+    public JsonObject get(List<String> mcVersions, JsonObject previous) throws Throwable {
         JsonObject obj = new JsonObject();
         JsonObject fabric = new JsonObject();
         JsonObject forge = new JsonObject();

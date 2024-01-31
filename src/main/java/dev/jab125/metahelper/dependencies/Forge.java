@@ -8,9 +8,7 @@ import dev.jab125.metahelper.util.Metadata;
 import okhttp3.Request;
 import okhttp3.Response;
 
-import java.util.LinkedHashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -18,7 +16,7 @@ public class Forge implements Deps {
     public static final String FORGE_URL = "https://maven.minecraftforge.net/net/minecraftforge/forge/maven-metadata.xml";
 
     @Override
-    public JsonObject get(List<String> mcVersions) throws Throwable {
+    public JsonObject get(List<String> mcVersions, JsonObject previous) throws Throwable {
         JsonObject obj = new JsonObject();
         Request request = new Request.Builder()
                 .url(FORGE_URL)
