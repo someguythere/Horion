@@ -14,12 +14,12 @@ import static dev.jab125.metahelper.util.Util.jsonArray;
 public class ClothConfig implements Deps {
     public static final String CLOTH_CONFIG_URL = "https://api.modrinth.com/v2/project/cloth-config/version";
     @Override
-    public Map<String, Object> get(List<String> mcVersions) throws Throwable {
-        Map<String, Object> obj = new LinkedHashMap<>();
-        Map<String, String> fabric = new LinkedHashMap<>();
-        Map<String, String> forge = new LinkedHashMap<>();
-        Map<String, String> neoforge = new LinkedHashMap<>();
-        Map<String, Map<String, String>> loaders = Map.of("fabric", fabric, "forge", forge, "neoforge", neoforge);
+    public JsonObject get(List<String> mcVersions) throws Throwable {
+        JsonObject obj = new JsonObject();
+        JsonObject fabric = new JsonObject();
+        JsonObject forge = new JsonObject();
+        JsonObject neoforge = new JsonObject();
+        Map<String, JsonObject> loaders = Map.of("fabric", fabric, "forge", forge, "neoforge", neoforge);
         Request request = new Request.Builder()
                 .url(CLOTH_CONFIG_URL)
                 .build();
@@ -33,16 +33,16 @@ public class ClothConfig implements Deps {
                         if (Integer.parseInt(dep.split("\\.")[0]) < 4) {
                             prefix = "me.shedaniel.cloth:config-2";
                         }
-                        loaders.get(s).put(mcVersion, prefix + (prefix.contains("2") ? "" : s) + ":" + dep);
+                        loaders.get(s).addProperty(mcVersion, prefix + (prefix.contains("2") ? "" : s) + ":" + dep);
                     } catch (Throwable t) {
                         System.err.println("Failed to fetch version for " + mcVersion);
                     }
                 }
             }
         }
-        obj.put("fabric", fabric);
-        obj.put("forge", forge);
-        obj.put("neoforge", neoforge);
+        obj.add("fabric", fabric);
+        obj.add("forge", forge);
+        obj.add("neoforge", neoforge);
         return obj;
     }
 

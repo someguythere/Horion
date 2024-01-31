@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Map;
 
 public interface Deps {
-    Map<String, Object> get(List<String> mcVersions) throws Throwable;
+    JsonObject get(List<String> mcVersions) throws Throwable;
 
     String id();
 

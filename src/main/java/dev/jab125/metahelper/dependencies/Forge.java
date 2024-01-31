@@ -1,7 +1,6 @@
 package dev.jab125.metahelper.dependencies;
 
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
-import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import dev.jab125.metahelper.Main;
 import dev.jab125.metahelper.util.Changelog;
@@ -15,30 +14,28 @@ import java.util.Map;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-import static dev.jab125.metahelper.util.Util.jsonObject;
-
 public class Forge implements Deps {
     public static final String FORGE_URL = "https://maven.minecraftforge.net/net/minecraftforge/forge/maven-metadata.xml";
 
     @Override
-    public Map<String, Object> get(List<String> mcVersions) throws Throwable {
-        Map<String, Object> obj = new LinkedHashMap<>();
+    public JsonObject get(List<String> mcVersions) throws Throwable {
+        JsonObject obj = new JsonObject();
         Request request = new Request.Builder()
                 .url(FORGE_URL)
                 .build();
         try (Response response = Main.CLIENT.newCall(request).execute()) {
-            Map<String, String> forge = new LinkedHashMap<>();
+            JsonObject forge = new JsonObject();
             XmlMapper xmlMapper = new XmlMapper();
             Metadata mavenMetadata = xmlMapper.readValue(response.body().bytes(), Metadata.class);
             List<String> versions = mavenMetadata.versioning.versions.stream().toList();
             for (String mcVersion : mcVersions) {
                 try {
-                    forge.put(mcVersion, "net.minecraftforge:forge:" + versions.stream().filter(a -> mcVersion.equals(a.split("-")[0])).findFirst().orElseThrow());
+                    forge.addProperty(mcVersion, "net.minecraftforge:forge:" + versions.stream().filter(a -> mcVersion.equals(a.split("-")[0])).findFirst().orElseThrow());
                 } catch (Throwable t) {
                     System.err.println("Failed to fetch version for " + mcVersion);
                 }
             }
-            obj.put("forge", forge);
+            obj.add("forge", forge);
         }
         return obj;
     }

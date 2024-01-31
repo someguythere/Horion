@@ -14,12 +14,12 @@ import static dev.jab125.metahelper.util.Util.jsonArray;
 public class RoughlyEnoughItems implements Deps {
     public static final String ROUGHLY_ENOUGH_ITEMS_URL = "https://api.modrinth.com/v2/project/rei/version";
     @Override
-    public Map<String, Object> get(List<String> mcVersions) throws Throwable {
-        Map<String, Object> obj = new LinkedHashMap<>();
-        Map<String, String> fabric = new LinkedHashMap<>();
-        Map<String, String> forge = new LinkedHashMap<>();
-        Map<String, String> neoforge = new LinkedHashMap<>();
-        Map<String, Map<String, String>> loaders = Map.of("fabric", fabric, "forge", forge, "neoforge", neoforge);
+    public JsonObject get(List<String> mcVersions) throws Throwable {
+        JsonObject obj = new JsonObject();
+        JsonObject fabric = new JsonObject();
+        JsonObject forge = new JsonObject();
+        JsonObject neoforge = new JsonObject();
+        Map<String, JsonObject> loaders = Map.of("fabric", fabric, "forge", forge, "neoforge", neoforge);
         Request request = new Request.Builder()
                 .url(ROUGHLY_ENOUGH_ITEMS_URL)
                 .build();
@@ -34,16 +34,16 @@ public class RoughlyEnoughItems implements Deps {
                         } else {
                             dep = array.stream().filter(a -> a.getAsJsonArray("game_versions").asList().stream().map(b -> b.getAsString()).toList().contains(mcVersion) && a.getAsJsonArray("loaders").asList().stream().map(b -> b.getAsString()).toList().contains(s)).findFirst().orElseThrow().getAsJsonPrimitive("version_number").getAsString().split("\\+")[0];
                         }
-                        loaders.get(s).put(mcVersion, "me.shedaniel:RoughlyEnoughItems-" + s + ":" + dep);
+                        loaders.get(s).addProperty(mcVersion, "me.shedaniel:RoughlyEnoughItems-" + s + ":" + dep);
                     } catch (Throwable t) {
                         System.err.println("Failed to fetch version for " + mcVersion);
                     }
                 }
             }
         }
-        obj.put("fabric", fabric);
-        obj.put("forge", forge);
-        obj.put("neoforge", neoforge);
+        obj.add("fabric", fabric);
+        obj.add("forge", forge);
+        obj.add("neoforge", neoforge);
         return obj;
     }
 

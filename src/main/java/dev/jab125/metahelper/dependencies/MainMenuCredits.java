@@ -14,10 +14,10 @@ import static dev.jab125.metahelper.util.Util.jsonArray;
 public class MainMenuCredits implements Deps {
     public static final String MAIN_MENU_CREDITS_URL = "https://api.modrinth.com/v2/project/main-menu-credits/version";
     @Override
-    public Map<String, Object> get(List<String> mcVersions) throws Throwable {
-        Map<String, Object> obj = new LinkedHashMap<>();
-        Map<String, String> fabric = new LinkedHashMap<>();
-        Map<String, Map<String, String>> loaders = Map.of("fabric", fabric);
+    public JsonObject get(List<String> mcVersions) throws Throwable {
+        JsonObject obj = new JsonObject();
+        JsonObject fabric = new JsonObject();
+        Map<String, JsonObject> loaders = Map.of("fabric", fabric);
         Request request = new Request.Builder()
                 .url(MAIN_MENU_CREDITS_URL)
                 .build();
@@ -28,14 +28,14 @@ public class MainMenuCredits implements Deps {
                     try {
                         String dep = array.stream().filter(a -> a.getAsJsonArray("game_versions").asList().stream().map(b -> b.getAsString()).toList().contains(mcVersion) && a.getAsJsonArray("loaders").asList().stream().map(b -> b.getAsString()).toList().contains(s)).findFirst().orElseThrow().getAsJsonPrimitive("id").getAsString().split("\\+")[0];
                         String prefix = "maven.modrinth:main-menu-credits:";
-                        loaders.get(s).put(mcVersion, prefix + dep);
+                        loaders.get(s).addProperty(mcVersion, prefix + dep);
                     } catch (Throwable t) {
                         System.err.println("Failed to fetch version for " + mcVersion);
                     }
                 }
             }
         }
-        obj.put("fabric", fabric);
+        obj.add("fabric", fabric);
         return obj;
     }
 

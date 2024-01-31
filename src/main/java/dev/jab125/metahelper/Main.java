@@ -1,5 +1,6 @@
 package dev.jab125.metahelper;
 
+import com.google.gson.JsonObject;
 import dev.jab125.metahelper.dependencies.*;
 import dev.jab125.metahelper.util.Util;
 import okhttp3.OkHttpClient;
@@ -28,9 +29,9 @@ public class Main {
 
     public static void main(String[] args) throws Throwable {
         List<String> mcVersions = List.of("1.16.5", "1.18.2", "1.19.2", "1.19.3", "1.19.4", "1.20", "1.20.1", "1.20.2", "1.20.3", "1.20.4");
-        Map<String, Object> depMap = new LinkedHashMap<>();
+        JsonObject depMap = new JsonObject();
         for (Deps dep : deps) {
-            depMap.put(dep.id(), dep.get(mcVersions));
+            depMap.add(dep.id(), dep.get(mcVersions));
         }
         Files.writeString(Path.of("meta.json"), Util.toString(depMap));
     }

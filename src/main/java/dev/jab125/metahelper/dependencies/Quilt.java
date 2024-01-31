@@ -23,8 +23,8 @@ public class Quilt implements Deps {
     public static final String QUILTED_FABRIC_API_URL = "https://maven.quiltmc.org/repository/release/org/quiltmc/quilted-fabric-api/quilted-fabric-api/maven-metadata.xml";
 
     @Override
-    public Map<String, Object> get(List<String> mcVersions) throws Throwable {
-        Map<String, Object> obj = new LinkedHashMap<>();
+    public JsonObject get(List<String> mcVersions) throws Throwable {
+        JsonObject obj = new JsonObject();
         Request request = new Request.Builder()
                 .url(QUILT_META)
                 .build();
@@ -32,42 +32,42 @@ public class Quilt implements Deps {
             JsonObject object = jsonObject(response.body().string());
             JsonArray loader = object.getAsJsonArray("loader");
             String quiltLoader = loader.asList().stream().filter(a -> !a.getAsJsonObject().getAsJsonPrimitive("version").getAsString().contains("beta")).findFirst().orElseThrow().getAsJsonObject().get("maven").getAsString();
-            obj.put("loader", quiltLoader);
+            obj.addProperty("loader", quiltLoader);
         }
         Request request2 = new Request.Builder()
                 .url(QUILT_STANDARD_LIBRARIES_URL)
                 .build();
         try (Response response = Main.CLIENT.newCall(request2).execute()) {
-            Map<String, String> qsl = new LinkedHashMap<>();
+            JsonObject qsl = new JsonObject();
             XmlMapper xmlMapper = new XmlMapper();
             Metadata mavenMetadata = xmlMapper.readValue(response.body().bytes(), Metadata.class);
             List<String> versions = reverse(mavenMetadata.versioning.versions.stream()).toList();
             for (String mcVersion : mcVersions) {
                 try {
-                    qsl.put(mcVersion, "org.quiltmc:qsl:" + versions.stream().filter(a -> a.endsWith("+" + mcVersion)).findFirst().orElseThrow());
+                    qsl.addProperty(mcVersion, "org.quiltmc:qsl:" + versions.stream().filter(a -> a.endsWith("+" + mcVersion)).findFirst().orElseThrow());
                 } catch (Throwable t) {
                     System.err.println("Failed to fetch version for " + mcVersion);
                 }
             }
-            obj.put("qsl",  qsl);
+            obj.add("qsl",  qsl);
         }
 
         Request request3 = new Request.Builder()
                 .url(QUILTED_FABRIC_API_URL)
                 .build();
         try (Response response = Main.CLIENT.newCall(request3).execute()) {
-            Map<String, String> qfapi = new LinkedHashMap<>();
+            JsonObject qfapi = new JsonObject();
             XmlMapper xmlMapper = new XmlMapper();
             Metadata mavenMetadata = xmlMapper.readValue(response.body().bytes(), Metadata.class);
             List<String> versions = reverse(mavenMetadata.versioning.versions.stream()).toList();
             for (String mcVersion : mcVersions) {
                 try {
-                    qfapi.put(mcVersion, "org.quiltmc.quilted-fabric-api:quilted-fabric-api:" + versions.stream().filter(a -> a.endsWith("-" + mcVersion)).findFirst().orElseThrow());
+                    qfapi.addProperty(mcVersion, "org.quiltmc.quilted-fabric-api:quilted-fabric-api:" + versions.stream().filter(a -> a.endsWith("-" + mcVersion)).findFirst().orElseThrow());
                 } catch (Throwable t) {
                     System.err.println("Failed to fetch version for " + mcVersion);
                 }
             }
-            obj.put("quilted-fabric-api", qfapi);
+            obj.add("quilted-fabric-api", qfapi);
         }
 //            List<JsonObject> array = (List<JsonObject>) (Object) jsonArray(response.body().string()).asList();
 //            Map<String, String> fabricApi = new LinkedHashMap<>();
