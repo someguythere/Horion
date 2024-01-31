@@ -32,3 +32,5 @@ jobs:
             git commit -m "Update ${{ steps.current-time.outputs.time }}"
             git push
           fi
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK }}

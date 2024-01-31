@@ -2,12 +2,15 @@ package dev.jab125.metahelper;
 
 import com.google.gson.JsonObject;
 import dev.jab125.metahelper.dependencies.*;
+import dev.jab125.metahelper.util.Changelog;
+import dev.jab125.metahelper.util.DiscordWebhook;
 import dev.jab125.metahelper.util.Util;
 import okhttp3.OkHttpClient;
 
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
+import java.util.Locale;
 
 public class Main {
 
@@ -30,8 +33,25 @@ public class Main {
         JsonObject depMap = new JsonObject();
         JsonObject jsonObject = Util.jsonObject(Files.readString(Path.of("meta.json")));
         for (Deps dep : deps) {
-            depMap.add(dep.id(), dep.get(mcVersions, jsonObject));
+            depMap.add(dep.id(), dep.get(mcVersions, jsonObject.get(dep.id()).getAsJsonObject()));
         }
-        Files.writeString(Path.of("meta.json"), Util.toString(depMap));
+        String s = Util.toString(depMap);
+        final String url = System.getenv("DISCORD_WEBHOOK_URL");
+        if (url != null) {
+            for (Deps dep : deps) {
+                List<Changelog> changelogs = dep.changelogs(jsonObject.get(dep.id()).getAsJsonObject(), depMap.get(dep.id()).getAsJsonObject());
+                if (changelogs != null && !changelogs.isEmpty()) {
+                    for (Changelog changelog : changelogs) {
+                        DiscordWebhook discordWebhook = new DiscordWebhook(url);
+                        for (DiscordWebhook.EmbedObject embed : changelog.embeds()) {
+                            discordWebhook.addEmbed(embed);
+                        }
+                        discordWebhook.setAvatarUrl(changelog.icon());
+                        discordWebhook.execute();
+                    }
+                }
+            }
+        }
+        Files.writeString(Path.of("meta.json"), s);
     }
 }
