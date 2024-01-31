@@ -1,6 +1,6 @@
 {
   "fabric": {
-    "loader": "net.fabricmc:fabric-loader:0.15.5",
+    "loader": "net.fabricmc:fabric-loader:0.15.6",
     "yarn": {
       "1.16.5": "net.fabricmc:yarn:1.16.5+build.10:v2",
       "1.18.2": "net.fabricmc:yarn:1.18.2+build.4:v2",
@@ -21,9 +21,9 @@
       "1.19.4": "net.fabricmc.fabric-api:fabric-api:0.87.2+1.19.4",
       "1.20": "net.fabricmc.fabric-api:fabric-api:0.83.0+1.20",
       "1.20.1": "net.fabricmc.fabric-api:fabric-api:0.91.0+1.20.1",
-      "1.20.2": "net.fabricmc.fabric-api:fabric-api:0.91.3+1.20.2",
+      "1.20.2": "net.fabricmc.fabric-api:fabric-api:0.91.6+1.20.2",
       "1.20.3": "net.fabricmc.fabric-api:fabric-api:0.91.1+1.20.3",
-      "1.20.4": "net.fabricmc.fabric-api:fabric-api:0.94.0+1.20.4"
+      "1.20.4": "net.fabricmc.fabric-api:fabric-api:0.95.3+1.20.4"
     },
     "modmenu": {
       "1.16.5": "com.terraformersmc:modmenu:1.16.23",
@@ -39,14 +39,15 @@
     }
   },
   "quilt": {
-    "loader": "org.quiltmc:quilt-loader:0.23.0",
+    "loader": "org.quiltmc:quilt-loader:0.23.1",
     "qsl": {
       "1.18.2": "org.quiltmc:qsl:1.1.0-beta.26+1.18.2",
       "1.19.2": "org.quiltmc:qsl:3.0.0-beta.29+1.19.2",
       "1.19.3": "org.quiltmc:qsl:4.0.0-beta.13+1.19.3",
       "1.19.4": "org.quiltmc:qsl:5.0.0-beta.11+1.19.4",
       "1.20": "org.quiltmc:qsl:6.0.1+1.20",
-      "1.20.1": "org.quiltmc:qsl:6.1.2+1.20.1"
+      "1.20.1": "org.quiltmc:qsl:6.1.2+1.20.1",
+      "1.20.2": "org.quiltmc:qsl:7.0.0-alpha.9+1.20.2"
     },
     "quilted-fabric-api": {
       "1.18.2": "org.quiltmc.quilted-fabric-api:quilted-fabric-api:1.0.0-beta.28+0.67.0-1.18.2",
@@ -54,7 +55,8 @@
       "1.19.3": "org.quiltmc.quilted-fabric-api:quilted-fabric-api:5.0.0-beta.9+0.76.0-1.19.3",
       "1.19.4": "org.quiltmc.quilted-fabric-api:quilted-fabric-api:6.0.0-beta.11+0.87.0-1.19.4",
       "1.20": "org.quiltmc.quilted-fabric-api:quilted-fabric-api:7.0.1+0.83.0-1.20",
-      "1.20.1": "org.quiltmc.quilted-fabric-api:quilted-fabric-api:7.4.0+0.90.0-1.20.1"
+      "1.20.1": "org.quiltmc.quilted-fabric-api:quilted-fabric-api:7.4.0+0.90.0-1.20.1",
+      "1.20.2": "org.quiltmc.quilted-fabric-api:quilted-fabric-api:8.0.0-alpha.3+0.91.2-1.20.2"
     }
   },
   "forge": {
@@ -68,14 +70,14 @@
       "1.20.1": "net.minecraftforge:forge:1.20.1-47.2.20",
       "1.20.2": "net.minecraftforge:forge:1.20.2-48.1.0",
       "1.20.3": "net.minecraftforge:forge:1.20.3-49.0.2",
-      "1.20.4": "net.minecraftforge:forge:1.20.4-49.0.19"
+      "1.20.4": "net.minecraftforge:forge:1.20.4-49.0.26"
     }
   },
   "neoforge": {
     "neoforge": {
       "1.20.2": "net.neoforged:neoforge:20.2.88",
       "1.20.3": "net.neoforged:neoforge:20.3.8-beta",
-      "1.20.4": "net.neoforged:neoforge:20.4.109-beta"
+      "1.20.4": "net.neoforged:neoforge:20.4.146-beta"
     }
   },
   "architectury-api": {
@@ -177,25 +179,25 @@
   },
   "fancymenu": {
     "fabric": {
-      "1.18.2": "maven.modrinth:fancymenu:C5AxJy6i",
-      "1.19.2": "maven.modrinth:fancymenu:5KUAk89i",
+      "1.18.2": "maven.modrinth:fancymenu:FTAR3891",
+      "1.19.2": "maven.modrinth:fancymenu:iRDezFmY",
       "1.19.3": "maven.modrinth:fancymenu:zGVCWJ66",
       "1.19.4": "maven.modrinth:fancymenu:BQwVkNAv",
       "1.20": "maven.modrinth:fancymenu:VbJOHkC3",
-      "1.20.1": "maven.modrinth:fancymenu:mCwkV3lw",
+      "1.20.1": "maven.modrinth:fancymenu:fJcmxOHy",
       "1.20.2": "maven.modrinth:fancymenu:8eWfCk6V",
-      "1.20.4": "maven.modrinth:fancymenu:Io5mipbf"
+      "1.20.4": "maven.modrinth:fancymenu:6nvc8wWc"
     },
     "forge": {
       "1.16.5": "maven.modrinth:fancymenu:5K7N5IDG",
-      "1.18.2": "maven.modrinth:fancymenu:rD0Bu3Ff",
-      "1.19.2": "maven.modrinth:fancymenu:NQQhNCWD",
+      "1.18.2": "maven.modrinth:fancymenu:4Dld20RA",
+      "1.19.2": "maven.modrinth:fancymenu:c3GAjVZZ",
       "1.19.3": "maven.modrinth:fancymenu:ps3ccIKg",
       "1.19.4": "maven.modrinth:fancymenu:SGIBwksx",
       "1.20": "maven.modrinth:fancymenu:J3jmQAzt",
-      "1.20.1": "maven.modrinth:fancymenu:DDn865YU",
+      "1.20.1": "maven.modrinth:fancymenu:8TMjqSDn",
       "1.20.2": "maven.modrinth:fancymenu:f6EZWcZW",
-      "1.20.4": "maven.modrinth:fancymenu:4RyTIT8u"
+      "1.20.4": "maven.modrinth:fancymenu:D8SrUAzd"
     },
     "neoforge": {}
   },
