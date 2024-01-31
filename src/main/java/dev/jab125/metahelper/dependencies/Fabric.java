@@ -3,10 +3,15 @@ package dev.jab125.metahelper.dependencies;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
 import dev.jab125.metahelper.Main;
+import dev.jab125.metahelper.util.Changelog;
+import dev.jab125.metahelper.util.DiscordWebhook;
 import okhttp3.Request;
 import okhttp3.Response;
 
+import java.awt.*;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 import static dev.jab125.metahelper.util.Util.jsonArray;
 import static dev.jab125.metahelper.util.Util.jsonObject;
@@ -77,6 +82,17 @@ public class Fabric implements Deps {
             obj.add("modmenu", modMenu);
         }
         return obj;
+    }
+
+    @Override
+    public List<Changelog> changelogs(JsonObject before, JsonObject after) {
+        ArrayList<Changelog> changelogs = new ArrayList<>();
+        String prevLoader = before.getAsJsonPrimitive("loader").getAsString().substring("net.fabricmc:fabric-loader:".length());
+        String currentLoader = after.getAsJsonPrimitive("loader").getAsString().substring("net.fabricmc:fabric-loader:".length());
+        if (!Objects.equals(prevLoader, currentLoader)) {
+            changelogs.add(new Changelog(null, List.of(new DiscordWebhook.EmbedObject().setTitle("New Fabric Loader version!").setColor(new Color(0xDBD2B5)).addField("Latest", "**" + prevLoader + "** -> **" + currentLoader + "**", true))));
+        }
+        return changelogs;
     }
 
     @Override
