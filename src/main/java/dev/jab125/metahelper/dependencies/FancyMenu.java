@@ -27,7 +27,7 @@ public class FancyMenu implements Deps {
             for (String s : loaders.keySet()) {
                 for (String mcVersion : mcVersions) {
                     try {
-                        String dep = array.stream().filter(a -> a.getAsJsonArray("game_versions").asList().stream().map(b -> b.getAsString()).toList().contains(mcVersion) && a.getAsJsonArray("loaders").asList().stream().map(b -> b.getAsString()).toList().contains(s)).findFirst().orElseThrow().getAsJsonPrimitive("id").getAsString().split("\\+")[0];
+                        String dep = array.stream().filter(a -> a.getAsJsonPrimitive("version_number" /* we don't want v */).getAsString().startsWith("2.")).filter(a -> a.getAsJsonArray("game_versions").asList().stream().map(b -> b.getAsString()).toList().contains(mcVersion) && a.getAsJsonArray("loaders").asList().stream().map(b -> b.getAsString()).toList().contains(s)).findFirst().orElseThrow().getAsJsonPrimitive("id").getAsString().split("\\+")[0];
                         String prefix = "maven.modrinth:fancymenu:";
                         loaders.get(s).addProperty(mcVersion, prefix + dep);
                     } catch (Throwable t) {
