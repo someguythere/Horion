@@ -39,7 +39,7 @@
     }
   },
   "quilt": {
-    "loader": "org.quiltmc:quilt-loader:0.23.1",
+    "loader": "org.quiltmc:quilt-loader:0.24.0",
     "qsl": {
       "1.18.2": "org.quiltmc:qsl:1.1.0-beta.26+1.18.2",
       "1.19.2": "org.quiltmc:qsl:3.0.0-beta.29+1.19.2",
