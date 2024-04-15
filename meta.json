@@ -114,7 +114,7 @@
     "fabric": {
       "1.16.5": "me.shedaniel:RoughlyEnoughItems-fabric:6.5.433",
       "1.18.2": "me.shedaniel:RoughlyEnoughItems-fabric:8.3.694",
-      "1.19.2": "me.shedaniel:RoughlyEnoughItems-fabric:9.1.695",
+      "1.19.2": "me.shedaniel:RoughlyEnoughItems-fabric:9.2.703",
       "1.19.3": "me.shedaniel:RoughlyEnoughItems-fabric:10.0.646",
       "1.19.4": "me.shedaniel:RoughlyEnoughItems-fabric:11.0.696",
       "1.20": "me.shedaniel:RoughlyEnoughItems-fabric:12.0.697",
@@ -125,7 +125,7 @@
     "forge": {
       "1.16.5": "me.shedaniel:RoughlyEnoughItems-forge:6.5.433",
       "1.18.2": "me.shedaniel:RoughlyEnoughItems-forge:8.3.694",
-      "1.19.2": "me.shedaniel:RoughlyEnoughItems-forge:9.1.695",
+      "1.19.2": "me.shedaniel:RoughlyEnoughItems-forge:9.2.703",
       "1.19.3": "me.shedaniel:RoughlyEnoughItems-forge:10.0.646",
       "1.19.4": "me.shedaniel:RoughlyEnoughItems-forge:11.0.696",
       "1.20": "me.shedaniel:RoughlyEnoughItems-forge:12.0.697",
