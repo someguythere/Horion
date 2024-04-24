@@ -11,7 +11,8 @@
       "1.20.1": "net.fabricmc:yarn:1.20.1+build.10:v2",
       "1.20.2": "net.fabricmc:yarn:1.20.2+build.4:v2",
       "1.20.3": "net.fabricmc:yarn:1.20.3+build.1:v2",
-      "1.20.4": "net.fabricmc:yarn:1.20.4+build.3:v2"
+      "1.20.4": "net.fabricmc:yarn:1.20.4+build.3:v2",
+      "1.20.5": "net.fabricmc:yarn:1.20.5+build.1:v2"
     },
     "fabric-api": {
       "1.16.5": "net.fabricmc.fabric-api:fabric-api:0.42.0+1.16",
@@ -23,7 +24,8 @@
       "1.20.1": "net.fabricmc.fabric-api:fabric-api:0.92.1+1.20.1",
       "1.20.2": "net.fabricmc.fabric-api:fabric-api:0.91.6+1.20.2",
       "1.20.3": "net.fabricmc.fabric-api:fabric-api:0.91.1+1.20.3",
-      "1.20.4": "net.fabricmc.fabric-api:fabric-api:0.97.0+1.20.4"
+      "1.20.4": "net.fabricmc.fabric-api:fabric-api:0.97.0+1.20.4",
+      "1.20.5": "net.fabricmc.fabric-api:fabric-api:0.97.6+1.20.5"
     },
     "modmenu": {
       "1.16.5": "com.terraformersmc:modmenu:1.16.23",
@@ -79,7 +81,8 @@
     "neoforge": {
       "1.20.2": "net.neoforged:neoforge:20.2.88",
       "1.20.3": "net.neoforged:neoforge:20.3.8-beta",
-      "1.20.4": "net.neoforged:neoforge:20.4.232"
+      "1.20.4": "net.neoforged:neoforge:20.4.232",
+      "1.20.5": "net.neoforged:neoforge:20.5.0-beta"
     }
   },
   "architectury-api": {
