@@ -29,7 +29,7 @@ public class Main {
     };
 
     public static void main(String[] args) throws Throwable {
-        List<String> mcVersions = List.of("1.16.5", "1.18.2", "1.19.2", "1.19.3", "1.19.4", "1.20", "1.20.1", "1.20.2", "1.20.3", "1.20.4", "1.20.5");
+        List<String> mcVersions = List.of("1.16.5", "1.18.2", "1.19.2", "1.19.3", "1.19.4", "1.20", "1.20.1", "1.20.2", "1.20.3", "1.20.4", "1.20.5", "1.20.6");
         JsonObject depMap = new JsonObject();
         JsonObject jsonObject = Util.jsonObject(Files.readString(Path.of("meta.json")));
         for (Deps dep : deps) {
