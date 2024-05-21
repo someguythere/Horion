@@ -103,7 +103,7 @@
       "1.20.2": "dev.architectury:architectury-fabric:10.1.20",
       "1.20.4": "dev.architectury:architectury-fabric:11.1.17",
       "1.20.5": "dev.architectury:architectury-fabric:12.0.28",
-      "1.20.6": "dev.architectury:architectury-fabric:12.0.1"
+      "1.20.6": "dev.architectury:architectury-fabric:12.1.2"
     },
     "forge": {
       "1.16.5": "dev.architectury:architectury-forge:1.32.68",
@@ -120,7 +120,7 @@
       "1.20.2": "dev.architectury:architectury-neoforge:10.1.20",
       "1.20.4": "dev.architectury:architectury-neoforge:11.1.17",
       "1.20.5": "dev.architectury:architectury-neoforge:12.0.28",
-      "1.20.6": "dev.architectury:architectury-neoforge:12.0.1"
+      "1.20.6": "dev.architectury:architectury-neoforge:12.1.2"
     }
   },
   "roughly-enough-items": {
