@@ -43,7 +43,11 @@ public class NeoForge implements Deps {
                         String[] split = a.split("\\.");
                         String major = split[0];
                         String minor = split[1];
-                        return mcVersion.equals("1." + major + "." + minor);
+                        if (!minor.equals("0") {
+                            return mcVersion.equals("1." + major + "." + minor);
+                        } else {
+                            return mcVersion.equals("1." + major);
+                        }
                     }).findFirst().orElseThrow();
                     if (!neoforgeVer.equals(prevNeoForgeVer)) {
                         JsonObject object = new JsonObject();
