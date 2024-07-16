@@ -43,7 +43,7 @@ public class NeoForge implements Deps {
                         String[] split = a.split("\\.");
                         String major = split[0];
                         String minor = split[1];
-                        if (!minor.equals("0") {
+                        if (!minor.equals("0")) {
                             return mcVersion.equals("1." + major + "." + minor);
                         } else {
                             return mcVersion.equals("1." + major);
