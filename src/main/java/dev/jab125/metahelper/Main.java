@@ -25,7 +25,8 @@ public class Main {
             new ClothConfig(),
             new MainMenuCredits(),
             new FancyMenu(),
-            new Konkrete()
+            new Konkrete(),
+            new Legacy4J()
     };
 
     public static void main(String[] args) throws Throwable {

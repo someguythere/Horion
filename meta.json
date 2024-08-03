@@ -274,5 +274,33 @@
       "1.20.6": "maven.modrinth:konkrete:8T4RHphB",
       "1.21": "maven.modrinth:konkrete:stJDU839"
     }
+  },
+  "legacy4j": {
+    "fabric": {
+      "1.20.1": "maven.modrinth:legacy4j:eBNqldnH",
+      "1.20.2": "maven.modrinth:legacy4j:z3qFvLQv",
+      "1.20.4": "maven.modrinth:legacy4j:6bvlCgrL",
+      "1.20.6": "maven.modrinth:legacy4j:y7alODVo",
+      "1.21": "maven.modrinth:legacy4j:tZ0cXV9a"
+    },
+    "forge": {
+      "1.20.1": "maven.modrinth:legacy4j:DqgmbBYU",
+      "1.20.2": "maven.modrinth:legacy4j:nLoyGV31",
+      "1.20.4": "maven.modrinth:legacy4j:flhWhgco"
+    },
+    "neoforge": {
+      "1.20.1": "maven.modrinth:legacy4j:DqgmbBYU",
+      "1.20.2": "maven.modrinth:legacy4j:SJivAVIa",
+      "1.20.4": "maven.modrinth:legacy4j:zHhSO8f0",
+      "1.20.6": "maven.modrinth:legacy4j:u0Yilz5z",
+      "1.21": "maven.modrinth:legacy4j:GvTZJhPo"
+    },
+    "quilt": {
+      "1.20.1": "maven.modrinth:legacy4j:eBNqldnH",
+      "1.20.2": "maven.modrinth:legacy4j:z3qFvLQv",
+      "1.20.4": "maven.modrinth:legacy4j:6bvlCgrL",
+      "1.20.6": "maven.modrinth:legacy4j:y7alODVo",
+      "1.21": "maven.modrinth:legacy4j:tZ0cXV9a"
+    }
   }
 }
